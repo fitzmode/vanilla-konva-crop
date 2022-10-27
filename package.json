@@ -1,0 +1,17 @@
+{
+  "name": "Konva demo",
+  "version": "1.0.0",
+  "description": "Basic sandbox for Konva framework",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "konva": "8.3.13"
+  },
+  "devDependencies": {
+    "@babel/core": "8.3.5",
+    "parcel-bundler": "^1.6.1"
+  }
+}
